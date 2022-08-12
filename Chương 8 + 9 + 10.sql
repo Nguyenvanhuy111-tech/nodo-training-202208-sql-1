@@ -56,3 +56,15 @@ WHERE PROJ_ID < 2000
 WITH CHECK OPTION;
 
 DROP VIEW ASSIGMENT_VIEW;
+
+
+--3. Định nghĩa bảng MESSAGES có cấu trúc
+create table MESSAGES
+(
+    NUMCOL1       NUMBER(9,2),
+    NUMCOL2       NUMBER(9,2),
+    CHARCOL1      VARCHAR2(60),
+    CHARCOL2      VARCHAR2(60),
+    DATECOL1      DATE,
+    DATECOL1      DATE
+);
