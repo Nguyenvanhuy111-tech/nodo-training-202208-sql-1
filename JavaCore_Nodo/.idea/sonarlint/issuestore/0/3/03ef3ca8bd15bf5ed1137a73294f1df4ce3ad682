@@ -1,0 +1,10 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(å®¢Îÿÿÿÿÿ8˜ìˆÞª0
+h
+java:S2184""FCast one of the operands of this multiplication operation to a "long".(Þàà·þÿÿÿÿ8œìˆÞª0
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÕ™˜8£ìˆÞª0
+I
+java:S1602",Remove useless curly braces around statement(¥—ýð8–íˆÞª0
+I
+java:S1602",Remove useless curly braces around statement(¥—ýð8›íˆÞª0

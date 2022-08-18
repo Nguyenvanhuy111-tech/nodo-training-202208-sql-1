@@ -1,0 +1,17 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡ëÒÅ
+W
+java:S1118	":Add a private constructor to hide the implicit public one.(‚Ø»ä8ïÅâ÷ª0
+\
+java:S1075
+"ARefactor your code to get this URI from a customizable parameter.(ùİ±½ÿÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ8óÈá÷ª0
+V	java:S125"<This block of commented-out lines of code should be removed.(Ğ©¦×ûÿÿÿÿ
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ä’í÷ª0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8å’í÷ª0
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8å’í÷ª0
+`
+java:S1128"CRemove this unused import 'java.util.concurrent.atomic.AtomicLong'.(Ì™º¢8å’í÷ª0

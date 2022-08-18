@@ -1,0 +1,8 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡ëÒÅ
+f
+java:S2259"DA "NullPointerException" could be thrown; "length" is nullable here.(Ï©¿–ıÿÿÿÿ8–Ôì÷ª0
+N
+java:S1602",Remove useless curly braces around statement(­ƒãÛıÿÿÿÿ8™Ôì÷ª0
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(–îûúûÿÿÿÿ8›Ôì÷ª0
