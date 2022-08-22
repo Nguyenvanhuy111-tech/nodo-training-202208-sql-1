@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡ëÒÅ
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¹Àèúÿÿÿÿ
+P
+java:S4719":Replace Charset.forName() call with StandardCharsets.UTF_8(ÆÔÚ
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Úÿãå
+U
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ
+L
+java:S1128	"6Remove this unused import 'java.nio.channels.Channel'.(÷ê¹

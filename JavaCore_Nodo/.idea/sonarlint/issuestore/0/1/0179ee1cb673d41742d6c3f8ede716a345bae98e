@@ -1,0 +1,12 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+\
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(‘—ı
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¤Îşÿÿÿÿ
+t
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÔÇ¢
+?
+java:S2140")Use "java.util.Random.nextInt()" instead.(‘—ı
+W
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8ˆ»˜Ÿ«0

@@ -1,0 +1,11 @@
+
+P
+java:S1121".Extract the assignment out of this expression.(•àÉãıÿÿÿÿ8èØŸ«0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡ëÒÅ
+c
+java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(šğøˆıÿÿÿÿ
+W
+java:S1075	"ARefactor your code to get this URI from a customizable parameter.(Úÿãå
+F
+java:S1481
+"+Remove this unused "append" local variable.(“Âã´ûÿÿÿÿ

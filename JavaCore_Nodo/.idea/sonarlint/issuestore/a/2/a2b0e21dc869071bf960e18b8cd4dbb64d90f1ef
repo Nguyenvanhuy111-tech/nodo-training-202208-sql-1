@@ -1,0 +1,11 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡ëÒÅ
+e
+java:S2095"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ÓæèÌ
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(°†ÓÖûÿÿÿÿ8ãıÃùª0
+W
+java:S3878"ADisambiguate this call by either casting as "Class" or "Class[]".(¿ÀŒ
+=
+java:S3878"Remove this array creation.(ãÅÙşÿÿÿÿÿ8¾˜Ìùª0
+]	java:S125"<This block of commented-out lines of code should be removed.(Ìòş“şÿÿÿÿ8ÿíÌùª0

@@ -8,11 +8,11 @@ public class ReaderWriterExample
     public static void main(String[] args) throws IOException {
         File file = new File("/media/mp/DATA/OneDrive/hanoijava.txt");
         boolean append;
-//        try (FileWriter writer = new FileWriter(file,append=true)){
-//            writer.write("\r\n");
-//            writer.write("Tran Thi B");
-//            Desktop.getDesktop().open(file);
-//        }
+        try (FileWriter writer = new FileWriter(file,append=true)){
+            writer.write("\r\n");
+            writer.write("Tran Thi B");
+            Desktop.getDesktop().open(file);
+        }
 
 //        -------------------------------------------------------
         FileReader reader = new FileReader(file);
