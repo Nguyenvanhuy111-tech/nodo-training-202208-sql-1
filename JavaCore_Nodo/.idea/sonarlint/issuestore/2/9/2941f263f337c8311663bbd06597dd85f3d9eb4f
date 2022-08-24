@@ -1,0 +1,12 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İ‡ú©üÿÿÿÿ
+]
+java:S2259"GA "NullPointerException" could be thrown; "statement" is nullable here.(³úÀ‹
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(åÄñ©
+Z
+java:S2147"DCombine this catch with the one at line 24, which has the same body.(ıàÑÎ
+C
+java:S4925"-Remove this "Class.forName()", it is useless.(ùíÄé

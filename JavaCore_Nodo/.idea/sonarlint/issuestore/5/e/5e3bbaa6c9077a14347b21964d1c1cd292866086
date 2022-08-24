@@ -1,0 +1,13 @@
+
+J
+java:S1191"5Use classes from the Java API instead of Sun classes.(Ë—#
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÏçC
+T
+java:S1128"?Remove this unused import 'com.sun.jdi.connect.spi.Connection'.(Ë—#
+Q
+java:S1128";Remove this unused import 'java.net.MalformedURLException'.(ªËŞˆ
+R
+java:S1128
+"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷”

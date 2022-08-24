@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ý‡ú©üÿÿÿÿ
+^
+java:S2095
+"HUse try-with-resources or close this "JdbcRowSet" in a "finally" clause.(‹¾”‰
+]	java:S125"<This block of commented-out lines of code should be removed.(Û…øçúÿÿÿÿ8¿çŠÅ¬0

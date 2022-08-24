@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx.xsd
+    http://www.springframework.org/schema/jdbc
+    http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
+
+
+    <bean id="dataSource"
+          class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="oracle.jdbc.OracleDriver"></property>
+        <property name="url" value="jdbc:oracle:thin:SCOTT/SCOTT@27.118.22.14:1521:orcl"></property>
+        <property name="username" value="SCOTT"></property>
+        <property name="password" value="SCOTT"></property>
+    </bean>
+
+<!--    <bean id="studentJdbcDAO" class="spring.jee_nodo.Unit2.StudentJdbcDAO">-->
+<!--        <property name="dataSource" ref="dataSource"></property>-->
+<!--        <property name="insertQuery"-->
+<!--                  value="INSERT INTO STUDENT_MPP(id,name,age) VALUES(SEQ_Student_MP.nextval,?,?)"></property>-->
+<!--    </bean>-->
+        <bean id="studentJdbcDAO" class="spring.jee_nodo.Unit2.StudentJdbcDAO" init-method="createTableIfNotExists">
+            <property name="dataSource" ref="dataSource"></property>
+            <property name="insertQuery"
+                      value="INSERT INTO STUDENT_MPP(id,name,age) VALUES(SEQ_Student_MP.nextval,?,?)"></property>
+        </bean>
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+<!--    <jdbc:embedded-database type="DERBY" id="dataSource">-->
+<!--        <jdbc:script location="classpath:schema.sql"></jdbc:script>-->
+<!--    </jdbc:embedded-database>-->
+</beans>

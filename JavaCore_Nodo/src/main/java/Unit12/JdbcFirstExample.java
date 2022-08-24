@@ -28,11 +28,11 @@ public class JdbcFirstExample {
 //            System.out.println(statement.execute(sql));
 //            System.out.println(statement.execute(seq));
 
-            System.out.println("Create database successful!");
             statement.execute("insert into MP_Student(id,name,age)values (SEQ_Student_MP.nextval,'Tran Van B',20)");
             statement.execute("insert into MP_Student(id,name,age)values (SEQ_Student_MP.nextval,'Tran Thi B',22)");
             statement.execute("insert into MP_Student(id,name,age)values (SEQ_Student_MP.nextval,'Nguyen Van A',18)");
 
+            System.out.println("Create database successful!");
 
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);

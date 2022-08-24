@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+    <bean class="spring.jee_nodo.Unit1.HelloClazz" id="helloJavaClazz">
+        <!--        <constructor-arg value="HelloClazz"/>-->
+        <property name="message" value="Welcome to Java Clazz"></property>
+    </bean>
+    <bean class="spring.jee_nodo.Unit1.HelloClazz" id="helloJavaClazz1">
+        <property name="message" value="Welcome to Java"></property>
+    </bean>
+    <bean class="spring.jee_nodo.Unit1.HelloClazz" id="helloJavaClazz2" scope="prototype">
+        <property name="message" value="Welcome to Java"></property>
+    </bean>
+    <!--    <bean class="HelloClazz" id="helloJavaClazz3" destroy-method="release">-->
+    <!--        <property name="message" value="Welcome to Java"></property>-->
+    <!--    </bean>-->
+    <!--    <bean class="HelloClazz" id="helloJavaClazz4" init-method="initMessage" destroy-method="release">-->
+    <!--        <property name="message" value="Welcome to Java"></property>-->
+    <!--    </bean>-->
+    <bean class="spring.jee_nodo.Unit1.HelloClazz" init-method="initMessage" id="helloJavaClazz5">
+        <constructor-arg type="int" value="5"></constructor-arg>
+    </bean>
+    <bean class="spring.jee_nodo.Unit1.HelloClazz" init-method="initMessage" id="helloJavaClazz6">
+        <constructor-arg ref="helloJavaClazz5"></constructor-arg>
+    </bean>
+    <bean class="spring.jee_nodo.Unit1.InitSampleBean"></bean>
+    <bean class="spring.jee_nodo.Unit1.HelloWorld" id="helloWorld"></bean>
+    <bean id="jee01" class="spring.jee_nodo.Unit1.JavaClazz">
+        <property name="students">
+            <map>
+                <entry key="Nguyen Vn A" value="23"/>
+                <entry key="Nguyen Vn B" value="24"/>
+                <entry key="Nguyen Vn C" value="25"/>
+            </map>
+        </property>
+    </bean>
+</beans>

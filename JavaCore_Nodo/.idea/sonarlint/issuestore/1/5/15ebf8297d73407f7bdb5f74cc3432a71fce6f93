@@ -1,0 +1,11 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İ‡ú©üÿÿÿÿ
+b
+java:S2095"GUse try-with-resources or close this "WebRowSet" in a "finally" clause.(ú­ä ÿÿÿÿÿ
+Z
+java:S2147"DCombine this catch with the one at line 22, which has the same body.(ï­£Ä
+>	java:S108")Either remove or fill this block of code.(Úîø›
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

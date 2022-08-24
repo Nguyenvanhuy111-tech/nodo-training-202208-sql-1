@@ -1,0 +1,11 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İ‡ú©üÿÿÿÿ
+g
+java:S2095!"LUse try-with-resources or close this "FilteredRowSet" in a "finally" clause.(—ÒŸ­ûÿÿÿÿ
+M
+java:S1854$"7Remove this useless assignment to local variable "fil".(Ú–à
+C
+java:S4925 "-Remove this "Class.forName()", it is useless.(ùíÄé
+>
+java:S1481$"(Remove this unused "fil" local variable.(Ú–à

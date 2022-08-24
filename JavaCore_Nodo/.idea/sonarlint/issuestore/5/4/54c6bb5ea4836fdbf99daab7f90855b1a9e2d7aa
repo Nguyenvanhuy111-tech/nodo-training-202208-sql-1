@@ -1,0 +1,9 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ý‡ú©üÿÿÿÿ
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(åÄñ©
+b
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ýÿÿÿÿ
+C
+java:S4925
+"-Remove this "Class.forName()", it is useless.(ùíÄé

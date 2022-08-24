@@ -1,0 +1,22 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İ‡ú©üÿÿÿÿ
+k
+java:S2259"IA "NullPointerException" could be thrown; "connection()" can return null.(úµàîıÿÿÿÿ8²ÿ‘¤¬0
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ8ÿÅ¤¬0
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(åÄñ©8ÿÅ¤¬0
+U
+java:S1118":Add a private constructor to hide the implicit public one.(âŠ°ÿÿÿÿÿ
+_
+java:S1854"=Remove this useless assignment to local variable "statement".(‡²€·ıÿÿÿÿ8Æ¤¬0
+[
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(‚¦›Ä
+P
+java:S1481".Remove this unused "statement" local variable.(éÃ¢Ïıÿÿÿÿ8‚Æ¤¬0
+J
+java:S4925"-Remove this "Class.forName()", it is useless.(ùíÄé8‚Æ¤¬0
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(”á¸Û
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8ƒº¤¬0
